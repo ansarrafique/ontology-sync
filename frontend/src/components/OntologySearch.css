@@ -1,0 +1,28 @@
+.ontology-details {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 10px;
+}
+
+.grid-item {
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 3px;
+}
+
+.error-message {
+  background-color: #ffdddd;
+  color: #ff0000;
+  padding: 8px;
+  border-radius: 4px;
+  margin-top: 20px;
+}

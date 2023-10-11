@@ -20,10 +20,10 @@ The Ontology Synchronization Service is a web-based application that allows user
 
 Before you begin, ensure you have met the following requirements:
 
-- Node.js is installed on your machine.
-- Java (JDK) is installed on your machine. The applicaiton is being tested with JDK 17, but it should be compatiable with the other versions of Java.
+- Node.js is installed on your machine. The application is being tested with the latest version of Node.js (version 20).
+- Java (JDK) is installed on your machine. The application is being tested with JDK 17, but it should be compatiable with the other versions of Java.
 - Maven is installed on your machine.
-- MongoDB is set up or access to a MongoDB database (MongoDB Atlas).
+- MongoDB is set up or access to a MongoDB database (MongoDB Atlas). Please make sure that you have correctly specified the configuration of the MongoDB database such as *host*, *port*, and the *database name* in the `application.properties` file (cf. [MongoDB Configuration](#mongodb-configuration)).
 - Docker is installed if you want to run this application in a Docker container.
 
 ### Installation

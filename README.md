@@ -112,7 +112,7 @@ The Spring Boot application will be accessible at `http://localhost:8080/ontolog
     docker run -d -p 3000:3000 --name ontology-sync-frontend ontology-sync-frontend
     ```
     
-The front-end will be accessible at `http://localhost:3000`. It provides a under-friendly interface to search an ontology by id.
+The front-end will be accessible at `http://localhost:3000`. It provides a user-friendly interface to search an ontology by id. If the ontology is found in the database or in the Ontology Lookup Service (OLS), the details of the ontology will be displayed. Otherwise, **Error: Ontology not found** is displayed.
 
 ## Unit and Integration Tests
 
